@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-skeleton",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "repository": "https://github.com/Victorthemachine/nodejs-skeleton",
+  "author": "Nya~san",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "lint": "eslint '*/**/*.{ts,tsx}' --quiet --fix",
+    "format": "prettier --write '*/**/*.{ts,tsx,json}'",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.18.1",
+    "@typescript-eslint/parser": "^6.18.1",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.2",
+    "eslint-plugin-tsdoc": "^0.2.17",
+    "prettier": "^3.1.1"
+  }
+}
